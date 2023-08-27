@@ -1,0 +1,26 @@
+[
+    {
+        "scheduleId": "test1",
+        "timeObject": {
+            "minute": 54
+
+        },
+        "scheduleObject":{
+            "repo": "https://github.com/akhil-hari/youtube_scraper.git",
+            "name": "test_name_1",
+            "extra": {}
+        }
+    },
+    {
+        "scheduleId": "test2",
+        "timeObject": {
+            "minute": 56
+
+        },
+        "scheduleObject":{
+            "repo": "https://github.com/akhil-hari/youtube_scraper.git",
+            "name": "test_name2",
+            "extra": {}
+        }
+    }
+]

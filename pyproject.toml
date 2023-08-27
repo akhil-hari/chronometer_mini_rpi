@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "chronometer-mini-rpi"
+version = "0.1.0"
+description = ""
+authors = ["Akhil H Nair <aklhnrpm@gmail.com>"]
+readme = "README.md"
+packages = [{include = "chronometer_mini_rpi", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+scheduler = "^0.8.4"
+fastapi = "^0.101.0"
+sqlalchemy = "^2.0.19"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
