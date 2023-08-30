@@ -35,7 +35,7 @@ def get_poetry_venv(path:str):
     # except Exception as error:
     #     print(error)
     #     os.chdir(current_wd)
-    return f".venv/Scripts/python.exe"
+    return f".venv/bin/python"
 
 def init_bot(item):
     current_wd = os.getcwd()
